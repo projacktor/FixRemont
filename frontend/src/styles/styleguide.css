@@ -1,0 +1,38 @@
+:root {
+    --12px-bold-font-family: "RobotoFlex-Bold", Helvetica;
+    --12px-bold-font-size: 12px;
+    --12px-bold-font-style: normal;
+    --12px-bold-font-weight: 700;
+    --12px-bold-letter-spacing: 0px;
+    --12px-bold-line-height: 16px;
+    --14px-bold-font-family: "RobotoFlex-Bold", Helvetica;
+    --14px-bold-font-size: 14px;
+    --14px-bold-font-style: normal;
+    --14px-bold-font-weight: 700;
+    --14px-bold-letter-spacing: 0px;
+    --14px-bold-line-height: 21px;
+    --14px-regular-font-family: "RobotoFlex-Regular", Helvetica;
+    --14px-regular-font-size: 14px;
+    --14px-regular-font-style: normal;
+    --14px-regular-font-weight: 400;
+    --14px-regular-letter-spacing: 0px;
+    --14px-regular-line-height: 21px;
+    --cfdbd-5outlineonlight: rgba(207, 219, 213, 1);
+    --f5f5fasoft-onlight: rgba(245, 245, 250, 1);
+    --ffffffprimary: rgba(255, 255, 255, 1);
+    --heading-h1-font-family: "RobotoFlex-ExtraBold", Helvetica;
+    --heading-h1-font-size: 42px;
+    --heading-h1-font-style: normal;
+    --heading-h1-font-weight: 800;
+    --heading-h1-letter-spacing: 0px;
+    --heading-h1-line-height: 56px;
+    --icons-18px-font-family: "MaterialIcons-Regular", Helvetica;
+    --icons-18px-font-size: 18px;
+    --icons-18px-font-style: normal;
+    --icons-18px-font-weight: 400;
+    --icons-18px-letter-spacing: 0px;
+    --icons-18px-line-height: normal;
+    --x-00000-0primary: rgba(0, 0, 0, 1);
+    --x-005-2ffprimary: rgba(0, 82, 255, 1);
+    --x-5f-64-6dprimary: rgba(95, 100, 109, 1);
+}
