@@ -1,0 +1,57 @@
+.forms-primary-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    position: relative;
+    width: 360px;
+}
+
+.forms-primary-select .overlap-group {
+    border: 1px solid;
+    border-color: var(--cfdbd-5outlineonlight);
+    border-radius: 8px;
+    height: 66px;
+    width: 362px;
+}
+
+.forms-primary-select .icon {
+    color: var(--x-00000-0primary);
+    font-family: var(--icons-18px-font-family);
+    font-size: var(--icons-18px-font-size);
+    font-style: var(--icons-18px-font-style);
+    font-weight: var(--icons-18px-font-weight);
+    letter-spacing: var(--icons-18px-letter-spacing);
+    line-height: var(--icons-18px-line-height);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.forms-primary-select .placeholder {
+    color: var(--x-00000-0primary);
+    font-family: var(--14px-regular-font-family);
+    font-size: var(--14px-regular-font-size);
+    font-style: var(--14px-regular-font-style);
+    font-weight: var(--14px-regular-font-weight);
+    letter-spacing: var(--14px-regular-letter-spacing);
+    line-height: var(--14px-regular-line-height);
+    white-space: nowrap;
+}
+
+.forms-primary-select .field-title {
+    color: var(--x-00000-0primary);
+    font-family: var(--12px-bold-font-family);
+    font-size: var(--12px-bold-font-size);
+    font-style: var(--12px-bold-font-style);
+    font-weight: var(--12px-bold-font-weight);
+    letter-spacing: var(--12px-bold-letter-spacing);
+    line-height: var(--12px-bold-line-height);
+    white-space: nowrap;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 350px;
+    height: 60px;
+}

@@ -1,0 +1,88 @@
+.forms-primary-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    position: relative;
+    width: 360px;
+}
+
+
+.forms-primary-select .overlap-group {
+    border: 1px solid;
+    border-color: var(--cfdbd-5outlineonlight);
+    border-radius: 8px;
+    height: 66px;
+    left: -1px;
+    position: absolute;
+    top: 27px;
+    width: 362px;
+}
+
+.forms-primary-select .placeholder {
+    color: var(--x-5f-64-6dprimary);
+    font-family: var(--14px-regular-font-family);
+    font-size: var(--14px-regular-font-size);
+    font-style: var(--14px-regular-font-style);
+    font-weight: var(--14px-regular-font-weight);
+    left: 20px;
+    letter-spacing: var(--14px-regular-letter-spacing);
+    line-height: var(--14px-regular-line-height);
+    position: absolute;
+    top: 22px;
+    white-space: nowrap;
+}
+
+.forms-primary-select .icon {
+    color: var(--x-5f-64-6dprimary);
+    font-family: var(--icons-18px-font-family);
+    font-size: var(--icons-18px-font-size);
+    font-style: var(--icons-18px-font-style);
+    font-weight: var(--icons-18px-font-weight);
+    left: 324px;
+    letter-spacing: var(--icons-18px-letter-spacing);
+    line-height: var(--icons-18px-line-height);
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    white-space: nowrap;
+}
+
+.forms-primary-select .field-title {
+    color: var(--x-00000-0primary);
+    font-family: var(--12px-bold-font-family);
+    font-size: var(--12px-bold-font-size);
+    font-style: var(--12px-bold-font-style);
+    font-weight: var(--12px-bold-font-weight);
+    left: 0;
+    letter-spacing: var(--12px-bold-letter-spacing);
+    line-height: var(--12px-bold-line-height);
+    position: absolute;
+    top: -1px;
+    white-space: nowrap;
+}
+
+.forms-primary-select .password-input {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: calc(100% - 40px); /* 40px is the sum of left and right padding */
+    height: 66px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+.forms-primary-select .eye-button {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    height: 66px;
+    width: 66px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
