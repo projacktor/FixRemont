@@ -11,13 +11,10 @@ export const Login = () => {
     return (
         <div className="screen">
             <div className="div-2">
+                <img className="element" alt="Element" src={mainIcon} />
                 <div className="overlap">
                     <div className="mask" />
                     <img className="free-feather-flag" alt="Free feather flag" src={freeFlagsBigImg} />
-                </div>
-                <div className="link">
-                    <div className="you-don-t-have-an-ac">Еще нет аккаунта?</div>
-                    <div className="create-an-account"><a href="!#">Регистрация</a></div>
                 </div>
                 <div className="group">
                     <div className="group-2">
@@ -37,19 +34,22 @@ export const Login = () => {
                             text1="password"
                             text2="Пароль"
                         />
-                        <ButtonsLabel
-                            className="buttons-px-label"
-                            divClassName="buttons-label-instance"
-                            overlapGroupClassName="buttons-14px-label-filled-active-onlight"
-                            text="Войти"
-                        />
+                        {/*<ButtonsLabel*/}
+                        {/*    className="buttons-px-label"*/}
+                        {/*    divClassName="buttons-label-instance"*/}
+                        {/*    overlapGroupClassName="buttons-14px-label-filled-active-onlight"*/}
+                        {/*    text="Войти"*/}
+                        {/*/>*/}
                         <RememberMe className="forms-general-checkbox-resting-onlight" text="Запомнить меня" />
                         <div className="recover-password"><a href="!#">Забыли пароль?</a></div>
                     </div>
                     <div className="sign-in">Авторизация</div>
                     <p className="enter-your-account-d">Войдите в аккаунт используя электронную почту</p>
                 </div>
-                <img className="element" alt="Element" src={mainIcon} />
+                <div className="link">
+                    <div className="you-don-t-have-an-ac">Еще нет аккаунта?</div>
+                    <div className="create-an-account"><a href="!#">Регистрация</a></div>
+                </div>
             </div>
         </div>
     );

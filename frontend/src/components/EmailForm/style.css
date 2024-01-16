@@ -8,6 +8,9 @@
 }
 
 .forms-primary-select .overlap-group {
+    display: flex;
+    align-items: center;
+
     border: 1px solid;
     border-color: var(--cfdbd-5outlineonlight);
     border-radius: 8px;
@@ -15,7 +18,9 @@
     width: 362px;
 }
 
-.forms-primary-select .icon {
+.forms-primary-select .overlap-group .icon {
+    margin-right: 10px;
+
     color: var(--x-00000-0primary);
     font-family: var(--icons-18px-font-family);
     font-size: var(--icons-18px-font-size);
@@ -49,14 +54,32 @@
     white-space: nowrap;
 }
 
-.forms-primary-select input {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-    width: calc(100% - 40px); /* 40px is the sum of left and right padding */
-    height: 66px;
+.forms-primary-select .overlap-group input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px white inset !important;
+}
+.forms-primary-select .overlap-group .email-input {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 50px;
+    height: calc(100% - 20px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*height: 100%;*/
     border: none;
     outline: none;
     background: transparent;
+}
+
+.password-error-message {
+    margin-left: 10px;
+    align-self: flex-start;
+    color: red;
+    font-family: var(--12px-bold-font-family);
+    font-size: var(--12px-bold-font-size);
+    font-style: var(--12px-bold-font-style);
+    font-weight: var(--12px-bold-font-weight);
+    letter-spacing: var(--12px-bold-letter-spacing);
+    line-height: var(--12px-bold-line-height);
+    white-space: nowrap;
 }

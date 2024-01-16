@@ -4,15 +4,11 @@ import "./style.css";
 
 export const ButtonsLabel = ({className, overlapGroupClassName, divClassName, text = "Lable"}) => {
     return (
-        <button>
-            <a href="!#">
-            <div className={`buttons-label ${className}`}>
-                <div className={`overlap-group ${overlapGroupClassName}`}>
-                    <div className={`lable ${divClassName}`}>{text}</div>
-                </div>
+        <div className={`buttons-label ${className}`}>
+            <div className={`overlap-group ${overlapGroupClassName}`}>
+                <div className={`lable ${divClassName}`}>{text}</div>
             </div>
-            </a>
-        </button>
+        </div>
     );
 };
 

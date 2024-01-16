@@ -105,24 +105,24 @@
     left: 401px !important;
 }
 
-.screen .forms-primary-select-resting-onlight {
-    left: 0 !important;
-    position: absolute !important;
-    top: 110px !important;
-    width: 437px !important;
-}
+/*.screen .forms-primary-select-resting-onlight {*/
+/*    left: 0 !important;*/
+/*    position: absolute !important;*/
+/*    top: 110px !important;*/
+/*    width: 437px !important;*/
+/*}*/
 
-.screen .buttons-px-label {
-    left: 0 !important;
-    position: absolute !important;
-    top: 278px !important;
-    width: 437px !important;
-}
+/*.screen .buttons-px-label {*/
+/*    left: 0 !important;*/
+/*    position: absolute !important;*/
+/*    top: 278px !important;*/
+/*    width: 437px !important;*/
+/*}*/
 
-.screen .buttons-14px-label-filled-active-onlight {
-    background-color: #f9af15 !important;
-    width: 439px !important;
-}
+/*.screen .buttons-14px-label-filled-active-onlight {*/
+/*    background-color: #f9af15 !important;*/
+/*    width: 439px !important;*/
+/*}*/
 
 .screen .buttons-label-instance {
     color: #000000 !important;

@@ -29,7 +29,7 @@ export const Register = () => {
                             className="forms-primary-select-active-onlight"
                             iconClassName="design-component-instance-node"
                             overlapGroupClassName="forms-primary-select-instance"
-                            text=""
+                            text="✉︎"
                             text1="design@xasick.ru"
                             text2="Электронная почта"
                         />
