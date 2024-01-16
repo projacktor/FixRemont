@@ -67,7 +67,7 @@
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
-    width: calc(100% - 40px); /* 40px is the sum of left and right padding */
+    width: 360px; /* 40px is the sum of left and right padding */
     height: 66px;
     border: none;
     outline: none;
@@ -76,13 +76,14 @@
 
 
 .forms-primary-select .eye-button {
-    position: absolute;
-    top: 0;
+    position: relative;
+    /*top: 0;*/
     right: 20px;
     height: 66px;
     width: 66px;
     border: none;
-    outline: none;
+    /*outline: none;*/
     background: transparent;
     cursor: pointer;
+    margin-left: 395px;
 }

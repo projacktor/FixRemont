@@ -49,9 +49,14 @@
     white-space: nowrap;
 }
 
-input {
-    outline: none;
+.forms-primary-select input {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: calc(100% - 40px); /* 40px is the sum of left and right padding */
+    height: 66px;
     border: none;
-    width: 350px;
-    height: 60px;
+    outline: none;
+    background: transparent;
 }

@@ -27,3 +27,27 @@
     top: 2px;
     white-space: nowrap;
 }
+
+.rectangle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+}
+
+.rectangle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    transition: transform 0.2s ease-in-out;
+}
+
+.rectangle.checked::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+

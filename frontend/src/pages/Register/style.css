@@ -1,0 +1,257 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.screen .div-2 {
+    background-color: var(--ffffffprimary);
+    height: 900px;
+    position: relative;
+    width: 1440px;
+}
+
+.screen .overlap {
+    height: 900px;
+    left: 736px;
+    position: absolute;
+    top: 0;
+    width: 704px;
+}
+
+.screen .mask {
+    background-color: #f9af15;
+    height: 900px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 704px;
+}
+
+.screen .free-feather-flag {
+    height: 900px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 704px;
+}
+
+.screen .link {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 6px;
+    left: 149px;
+    position: absolute;
+    top: 829px;
+}
+
+.screen .you-don-t-have-an-ac {
+    color: var(--x-00000-0primary);
+    font-family: var(--14px-regular-font-family);
+    font-size: var(--14px-regular-font-size);
+    font-style: var(--14px-regular-font-style);
+    font-weight: var(--14px-regular-font-weight);
+    letter-spacing: var(--14px-regular-letter-spacing);
+    line-height: var(--14px-regular-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.screen .create-an-account {
+    color: #f9af15;
+    font-family: var(--14px-bold-font-family);
+    font-size: var(--14px-bold-font-size);
+    font-style: var(--14px-bold-font-style);
+    font-weight: var(--14px-bold-font-weight);
+    letter-spacing: var(--14px-bold-letter-spacing);
+    line-height: var(--14px-bold-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.screen .group {
+    height: 565px;
+    left: 149px;
+    position: absolute;
+    top: 167px;
+    width: 441px;
+}
+
+.screen .group-2 {
+    height: 440px;
+    left: 0;
+    position: absolute;
+    top: 125px;
+    width: 437px;
+}
+
+.screen .forms-primary-select-active-onlight {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 437px !important;
+}
+
+.screen .forms-primary-select-instance {
+    width: 439px !important;
+}
+
+.screen .design-component-instance-node {
+    left: 401px !important;
+}
+
+.screen .forms-primary-select-resting-onlight {
+    left: 0 !important;
+    position: absolute !important;
+    top: 110px !important;
+    width: 437px !important;
+}
+
+.screen .forms-primary-select-resting-onlight-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 220px !important;
+    width: 437px !important;
+}
+
+.screen .group-3 {
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 340px;
+    width: 437px;
+}
+
+.screen .buttons-px-label {
+    left: 0 !important;
+    position: absolute !important;
+    top: 48px !important;
+    width: 437px !important;
+}
+
+.screen .buttons-14px-label-filled-active-onlight {
+    background-color: #f9af15 !important;
+    width: 439px !important;
+}
+
+.screen .buttons-label-instance {
+    color: #000000 !important;
+    left: 176px !important;
+}
+
+.screen .forms-general {
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 309px;
+}
+
+.screen .shape-wrapper {
+    background-color: #f9af15;
+    border-radius: 4px;
+    height: 22px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 22px;
+}
+
+.screen .shape {
+    height: 8px;
+    left: 6px;
+    position: absolute;
+    top: 7px;
+    width: 11px;
+}
+
+.screen .title {
+    color: transparent;
+    font-family: var(--12px-bold-font-family);
+    font-size: var(--12px-bold-font-size);
+    font-style: var(--12px-bold-font-style);
+    font-weight: var(--12px-bold-font-weight);
+    left: 30px;
+    letter-spacing: var(--12px-bold-letter-spacing);
+    line-height: var(--12px-bold-line-height);
+    position: absolute;
+    top: 2px;
+    white-space: nowrap;
+}
+
+.screen .span {
+    color: #000000;
+    font-family: var(--12px-bold-font-family);
+    font-size: var(--12px-bold-font-size);
+    font-style: var(--12px-bold-font-style);
+    font-weight: var(--12px-bold-font-weight);
+    letter-spacing: var(--12px-bold-letter-spacing);
+    line-height: var(--12px-bold-line-height);
+}
+
+.screen .text-wrapper-2 {
+    color: #f9af15;
+    font-family: var(--12px-bold-font-family);
+    font-size: var(--12px-bold-font-size);
+    font-style: var(--12px-bold-font-style);
+    font-weight: var(--12px-bold-font-weight);
+    letter-spacing: var(--12px-bold-letter-spacing);
+    line-height: var(--12px-bold-line-height);
+}
+
+.screen .sign-in {
+    color: var(--x-00000-0primary);
+    font-family: var(--heading-h1-font-family);
+    font-size: var(--heading-h1-font-size);
+    font-style: var(--heading-h1-font-style);
+    font-weight: var(--heading-h1-font-weight);
+    left: 0;
+    letter-spacing: var(--heading-h1-letter-spacing);
+    line-height: var(--heading-h1-line-height);
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+}
+
+.screen .enter-your-account-d {
+    color: var(--x-5f-64-6dprimary);
+    font-family: var(--14px-regular-font-family);
+    font-size: var(--14px-regular-font-size);
+    font-style: var(--14px-regular-font-style);
+    font-weight: var(--14px-regular-font-weight);
+    left: 0;
+    letter-spacing: var(--14px-regular-letter-spacing);
+    line-height: var(--14px-regular-line-height);
+    position: absolute;
+    top: 58px;
+    white-space: nowrap;
+}
+
+.screen .element {
+    height: 50px;
+    left: 149px;
+    position: absolute;
+    top: 40px;
+    width: 114px;
+}
+
+.shape-wrapper {
+    position: relative;
+    /* другие стили */
+}
+
+.shape-wrapper.checked::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 2px;
+    background-color: #000;
+    transform: translate(-50%, -50%) rotate(45deg);
+}

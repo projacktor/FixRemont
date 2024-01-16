@@ -18,11 +18,11 @@ export const PasswordForm = ({
 
     return (
         <div className={`forms-primary-select ${className}`}>
+            <div className="field-title">{text2}</div>
             <div className={`overlap-group ${overlapGroupClassName}`}>
                 <input type={passwordVisible ? "text" : "password"} className="password-input" />
                 <button onClick={togglePasswordVisibility} className="eye-button">{passwordVisible ? '🙈' : '👁️'}</button>
             </div>
-            <div className="field-title">{text2}</div>
         </div>
     );
 };

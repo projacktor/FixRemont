@@ -34,7 +34,7 @@ export const Login = () => {
                             iconClassName="design-component-instance-node"
                             overlapGroupClassName="forms-primary-select-instance"
                             text="Введите пароль"
-                            text1=""
+                            text1="password"
                             text2="Пароль"
                         />
                         <ButtonsLabel
