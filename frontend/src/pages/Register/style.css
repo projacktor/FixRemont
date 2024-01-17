@@ -142,6 +142,7 @@
 .screen .buttons-label-instance {
     color: #000000 !important;
     left: 176px !important;
+    top: 1px;
 }
 
 .screen .forms-general {
@@ -180,7 +181,7 @@
     letter-spacing: var(--12px-bold-letter-spacing);
     line-height: var(--12px-bold-line-height);
     position: absolute;
-    top: 2px;
+    top: -10px;
     white-space: nowrap;
 }
 
