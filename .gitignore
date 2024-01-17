@@ -97,3 +97,6 @@ local_settings.py
 
 .env
 db.sqlite3
+
+# Old files
+/frontend/oldFiles

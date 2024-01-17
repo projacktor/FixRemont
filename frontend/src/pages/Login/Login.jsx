@@ -34,12 +34,12 @@ export const Login = () => {
                             text1="password"
                             text2="Пароль"
                         />
-                        {/*<ButtonsLabel*/}
-                        {/*    className="buttons-px-label"*/}
-                        {/*    divClassName="buttons-label-instance"*/}
-                        {/*    overlapGroupClassName="buttons-14px-label-filled-active-onlight"*/}
-                        {/*    text="Войти"*/}
-                        {/*/>*/}
+                        <ButtonsLabel
+                            className="buttons-px-label"
+                            divClassName="buttons-label-instance"
+                            overlapGroupClassName="buttons-14px-label-filled-active-onlight"
+                            text="Войти"
+                        />
                         <RememberMe className="forms-general-checkbox-resting-onlight" text="Запомнить меня" />
                         <div className="recover-password"><a href="!#">Забыли пароль?</a></div>
                     </div>
