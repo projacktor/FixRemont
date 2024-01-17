@@ -23,7 +23,7 @@ export const Login = () => {
                             iconClassName="design-component-instance-node"
                             overlapGroupClassName="forms-primary-select-instance"
                             text="✉︎"
-                            text1="design@xasick.ru"
+                            text1="example@email.ru"
                             text2="Электронная почта"
                         />
                         <PasswordForm

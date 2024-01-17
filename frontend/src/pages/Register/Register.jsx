@@ -30,7 +30,7 @@ export const Register = () => {
                             iconClassName="design-component-instance-node"
                             overlapGroupClassName="forms-primary-select-instance"
                             text="✉︎"
-                            text1="design@xasick.ru"
+                            text1="example@email.ru"
                             text2="Электронная почта"
                         />
                         <PasswordForm
@@ -38,7 +38,7 @@ export const Register = () => {
                             iconClassName="design-component-instance-node"
                             overlapGroupClassName="forms-primary-select-instance"
                             text="Введите пароль"
-                            text1=""
+                            // text1=""
                             text2="Пароль"
                         />
                         <PasswordForm
@@ -46,7 +46,7 @@ export const Register = () => {
                             iconClassName="design-component-instance-node"
                             overlapGroupClassName="forms-primary-select-instance"
                             text="Введите пароль"
-                            text1=""
+                            // text1=""
                             text2="Повторите пароль"
                         />
                         <div className="group-3">

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./style.css";
 
 export const PasswordForm = ({
@@ -45,8 +45,10 @@ export const PasswordForm = ({
             <div className="field-title">{text2}</div>
             {(passwordDirty && passwordError) && <div className="password-error-message">{passwordError}</div>}
             <div className={`overlap-group ${overlapGroupClassName}`}>
-                <input onChange={event => handleChange(event)} onBlur={e => blurHandler(e)} type={passwordVisible ? "text" : "password"} className="password-input" name="password"/>
-                <button onClick={togglePasswordVisibility} className="eye-button">{passwordVisible ? '🙈' : '👁️'}</button>
+                <input onChange={event => handleChange(event)} onBlur={e => blurHandler(e)}
+                       type={passwordVisible ? "text" : "password"} className="password-input" name="password"/>
+                <button onClick={togglePasswordVisibility}
+                        className="eye-button">{passwordVisible ? '🙈' : '👁️'}</button>
             </div>
         </div>
     );
