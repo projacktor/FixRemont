@@ -1,6 +1,6 @@
 .forms-primary-select {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 92px;
     position: relative;

@@ -1,7 +1,6 @@
 import React from "react";
 import {EmailForm} from "../../components/EmailForm/EmailForm.jsx";
 import {ButtonsLabel} from "../../components/ButtonLabel/ButtonsLabel.jsx";
-// import {PasswordForm} from "../../components/PasswordForm/PasswordForm.jsx";
 import "./style.css";
 import mainIcon from "../../img/MainIcon.png";
 import freeFlagsBigImg from "../../img/freeFlagsBigImg.png";
@@ -22,7 +21,7 @@ export const ForgotPassword = () => {
                             iconClassName="design-component-instance-node"
                             overlapGroupClassName="forms-primary-select-instance"
                             text="✉︎"
-                            text1="design@xasick.ru"
+                            text1="example@email.ru"
                             text2="Электронная почта"
                         />
                         <ButtonsLabel
