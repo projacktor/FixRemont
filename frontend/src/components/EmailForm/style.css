@@ -1,7 +1,7 @@
 .forms-primary-select {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 92px;
     position: relative;
     width: 360px;
@@ -10,6 +10,7 @@
 .forms-primary-select .overlap-group {
     display: flex;
     align-items: center;
+
     border: 1px solid;
     border-color: var(--cfdbd-5outlineonlight);
     border-radius: 8px;
@@ -19,7 +20,7 @@
 
 .forms-primary-select .overlap-group .icon {
     margin-right: 10px;
-    position: absolute;
+
     color: var(--x-00000-0primary);
     font-family: var(--icons-18px-font-family);
     font-size: var(--icons-18px-font-size);
@@ -43,8 +44,6 @@
 }
 
 .forms-primary-select .field-title {
-    position: absolute;
-    top: -21px;
     color: var(--x-00000-0primary);
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);
@@ -66,15 +65,14 @@
     height: calc(100% - 20px);
     padding-top: 10px;
     padding-bottom: 10px;
+    /*height: 100%;*/
     border: none;
     outline: none;
     background: transparent;
 }
 
 .password-error-message {
-    /*margin-left: 10px;*/
-    left: 100px;
-    position: absolute;
+    margin-left: 10px;
     align-self: flex-start;
     color: red;
     font-family: var(--12px-bold-font-family);
