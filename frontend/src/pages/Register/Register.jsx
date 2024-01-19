@@ -3,6 +3,7 @@ import { ButtonsLabel } from "../../components/ButtonLabel/ButtonsLabel.jsx";
 import { EmailForm } from "../../components/EmailForm/EmailForm.jsx";
 import {PasswordForm} from "../../components/PasswordForm/PasswordForm.jsx";
 import "./style.css";
+import classes from "./register.module.css";
 import mainIcon from "../../img/MainIcon.png";
 import freeFlagsBigImg from "../../img/freeFlagsBigImg.png";
 import activeTick from "../../img/activeTick.svg"
@@ -51,19 +52,18 @@ export const Register = () => {
                         />
                         <div className="group-3">
                             <ButtonsLabel
-                                className="buttons-px-label"
-                                divClassName="buttons-label-instance"
-                                overlapGroupClassName="buttons-14px-label-filled-active-onlight"
+                                className={classes.loginButton}
+                                divClassName={classes.loginButtonsInstance}
                                 text="Регистрация"
                             />
 
                             <div className="forms-general">
-                                <div className={`shape-wrapper ${isChecked ? 'checked' : ''}`} onClick={handleCheckboxChange}>
-                                    <img className="shape" alt="Shape" src={activeTick} />
+                                <div className={`checkbox ${isChecked ? 'checked' : ''}`} onClick={handleCheckboxChange}>
+                                    <img className="orange-tick" alt="Shape" src={activeTick} />
                                 </div>
                                 <p className="title">
-                                    <span className="span">Я прочитал и согласен с </span>
-                                    <span className="text-wrapper-2">политикой обработки персональных данных</span>
+                                    <span className="privacy-policy-1">Я прочитал и согласен с </span>
+                                    <span className="privacy-policy-2">политикой обработки персональных данных</span>
                                 </p>
                             </div>
                         </div>

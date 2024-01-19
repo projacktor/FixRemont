@@ -1,0 +1,39 @@
+/*Button label*/
+.loginButton {
+    left: 0 !important;
+    position: absolute !important;
+    top: 280px !important;
+    width: 437px !important;
+
+}
+
+.loginButtonInstance {
+    left: 198px !important;
+    top: 1px;
+}
+
+/*Forms*/
+.overlapContainer {
+    width: 439px !important;
+}
+
+/*Email from*/
+.emailForm {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 437px !important;
+}
+
+.emailFormIcon {
+    left: 401px !important;
+}
+
+
+/*Password from*/
+.passwordForm {
+    left: 0 !important;
+    position: absolute !important;
+    top: 110px !important;
+    width: 437px !important;
+}

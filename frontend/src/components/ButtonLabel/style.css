@@ -1,19 +1,21 @@
-.overlap-group {
-    background-color: var(--x-005-2ffprimary);
+.buttons-label {
+    all: unset;
+    background-color: #f9af15 !important;
     border-radius: 8px;
     height: 54px;
-    position: relative;
-    width: 100px;
+    position: absolute;
+    width: 437px;
 }
 
-.lable {
-    color: var(--ffffffprimary);
+.buttons-label .button-label-instance {
+    color: #000000 !important;
     font-family: var(--14px-bold-font-family);
     font-size: var(--14px-bold-font-size);
     font-style: var(--14px-bold-font-style);
     font-weight: var(--14px-bold-font-weight);
     letter-spacing: var(--14px-bold-letter-spacing);
     line-height: var(--14px-bold-line-height);
+    position: absolute;
     text-align: center;
     white-space: nowrap;
 }

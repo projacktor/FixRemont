@@ -1,0 +1,11 @@
+/*Button Label*/
+.screen .login-button {
+    left: 0 !important;
+    top: 48px !important;
+}
+
+.screen .login-buttons-instance {
+    color: #000000 !important;
+    left: 176px !important;
+    top: 1px;
+}

@@ -5,10 +5,8 @@ import "./style.css";
 export const PasswordForm = ({
                                  className,
                                  overlapGroupClassName,
-                                 text = "Select item",
                                  iconClassName,
-                                 text1 = "",
-                                 text2 = "Field title",
+                                 text = "Field title",
                              }) => {
     const [passwordVisible, setPasswordVisible] = useState(false);
     const [password, setPassword] = useState('');
@@ -42,7 +40,7 @@ export const PasswordForm = ({
 
     return (
         <div className={`forms-primary-select ${className}`}>
-            <div className="field-title">{text2}</div>
+            <div className="field-title">{text}</div>
             {(passwordDirty && passwordError) && <div className="password-error-message">{passwordError}</div>}
             <div className={`overlap-group ${overlapGroupClassName}`}>
                 <input onChange={event => handleChange(event)} onBlur={e => blurHandler(e)}

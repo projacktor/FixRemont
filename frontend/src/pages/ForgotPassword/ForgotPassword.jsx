@@ -2,6 +2,7 @@ import React from "react";
 import {EmailForm} from "../../components/EmailForm/EmailForm.jsx";
 import {ButtonsLabel} from "../../components/ButtonLabel/ButtonsLabel.jsx";
 import "./style.css";
+import classes from "./forgotPassword.module.css";
 import mainIcon from "../../img/MainIcon.png";
 import freeFlagsBigImg from "../../img/freeFlagsBigImg.png";
 
@@ -25,9 +26,8 @@ export const ForgotPassword = () => {
                             text2="Электронная почта"
                         />
                         <ButtonsLabel
-                            className="buttons-px-label"
-                            divClassName="buttons-label-instance"
-                            overlapGroupClassName="buttons-14px-label-filled-active-onlight"
+                            className={classes.loginButton}
+                            divClassName={classes.loginButtonsInstance}
                             text="Отправить письмо"
                         />
                     </div>

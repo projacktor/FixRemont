@@ -127,33 +127,17 @@
     width: 437px;
 }
 
-.screen .buttons-px-label {
-    left: 0 !important;
-    position: absolute !important;
-    top: 48px !important;
-    width: 437px !important;
-}
 
-.screen .buttons-14px-label-filled-active-onlight {
-    background-color: #f9af15 !important;
-    width: 439px !important;
-}
 
-.screen .buttons-label-instance {
-    color: #000000 !important;
-    left: 176px !important;
-    top: 1px;
-}
+/*.screen .forms-general {*/
+/*    height: 20px;*/
+/*    left: 0;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    width: 309px;*/
+/*}*/
 
-.screen .forms-general {
-    height: 20px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 309px;
-}
-
-.screen .shape-wrapper {
+.screen .checkbox {
     background-color: #f9af15;
     border-radius: 4px;
     height: 22px;
@@ -163,7 +147,7 @@
     width: 22px;
 }
 
-.screen .shape {
+.screen .orange-tick {
     height: 8px;
     left: 6px;
     position: absolute;
@@ -185,7 +169,7 @@
     white-space: nowrap;
 }
 
-.screen .span {
+.screen .privacy-policy-1 {
     color: #000000;
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);
@@ -195,7 +179,7 @@
     line-height: var(--12px-bold-line-height);
 }
 
-.screen .text-wrapper-2 {
+.screen .privacy-policy-2 {
     color: #f9af15;
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);

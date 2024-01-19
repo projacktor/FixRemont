@@ -91,51 +91,6 @@
     width: 439px;
 }
 
-.screen .forms-primary-select-active-onlight {
-    left: 0 !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 437px !important;
-}
-
-.screen .forms-primary-select-instance {
-    width: 439px !important;
-}
-
-.screen .design-component-instance-node {
-    left: 401px !important;
-}
-
-.screen .forms-primary-select-resting-onlight {
-    left: 0 !important;
-    position: absolute !important;
-    top: 110px !important;
-    width: 437px !important;
-}
-
-/*ButtonLable*/
-.screen .buttons-px-label {
-    left: 0 !important;
-    position: absolute !important;
-    top: 280px !important;
-    width: 437px !important;
-    background-color: #f9af15 !important;
-
-}
-
-/*.screen .buttons-14px-label-filled-active-onlight {*/
-/*    background-color: #f9af15 !important;*/
-/*    width: 439px !important;*/
-/*}*/
-
-.screen .buttons-label-instance {
-    color: #000000 !important;
-    left: 198px !important;
-    top: 1px;
-}
-
-/**/
-
 /*Remember me checkbox*/
 .screen .forms-general-checkbox-resting-onlight {
     left: 0 !important;

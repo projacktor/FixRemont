@@ -117,22 +117,6 @@
     width: 437px !important;
 }
 
-/*ButtonLable*/
-.screen .buttons-px-label {
-    left: 0 !important;
-    position: absolute !important;
-    top: 200px !important;
-    width: 437px !important;
-    background-color: #f9af15 !important;
-
-}
-
-.screen .buttons-label-instance {
-    color: #000000 !important;
-    left: 150px !important;
-    top: 1px;
-}
-
 /**/
 
 /*Remember me checkbox*/

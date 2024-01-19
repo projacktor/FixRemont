@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import React from "react";
-import "../../../oldFiles/ButtonLabel/style.css";
-
-export const ButtonsLabel = ({className, overlapGroupClassName, divClassName, text = "Lable"}) => {
+import "./style.css";
+// Модуль не действует на кнопку из-за двойного названия
+export const ButtonsLabel = ({buttonClassName, instanceClassName, text = "Lable"}) => {
     return (
-        <button className={`buttons-label ${className}`}>
-            <p className={`lable ${divClassName}`}>{text}</p>
+        <button className={`buttons-label ${buttonClassName}`}>
+            <p className={`button-label-instance ${instanceClassName}`}>{text}</p>
         </button>
     );
 };
