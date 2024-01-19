@@ -3,7 +3,7 @@ import { ButtonsLabel } from "../../components/ButtonLabel/ButtonsLabel.jsx";
 import { EmailForm } from "../../components/EmailForm/EmailForm.jsx";
 import {PasswordForm} from "../../components/PasswordForm/PasswordForm.jsx";
 import "./style.css";
-import classes from "./register.module.css";
+import styles from "./register.module.css";
 import mainIcon from "../../img/MainIcon.png";
 import freeFlagsBigImg from "../../img/freeFlagsBigImg.png";
 import activeTick from "../../img/activeTick.svg"
@@ -27,33 +27,27 @@ export const Register = () => {
                 <div className="group">
                     <div className="group-2">
                         <EmailForm
-                            className="forms-primary-select-active-onlight"
-                            iconClassName="design-component-instance-node"
-                            overlapGroupClassName="forms-primary-select-instance"
+                            className={styles.emailForm}
+                            iconClassName={styles.emailFormIcon}
+                            overlapGroupClassName={styles.overlapContainer}
                             text="✉︎"
                             text1="example@email.ru"
                             text2="Электронная почта"
                         />
                         <PasswordForm
-                            className="forms-primary-select-resting-onlight"
-                            iconClassName="design-component-instance-node"
-                            overlapGroupClassName="forms-primary-select-instance"
-                            text="Введите пароль"
-                            // text1=""
-                            text2="Пароль"
+                                className={styles.newPasswordForm}
+                            overlapGroupClassName={styles.overlapContainer}
+                            text="Пароль"
                         />
                         <PasswordForm
-                            className="forms-primary-select-resting-onlight-instance"
-                            iconClassName="design-component-instance-node"
-                            overlapGroupClassName="forms-primary-select-instance"
-                            text="Введите пароль"
-                            // text1=""
-                            text2="Повторите пароль"
+                                className={styles.newPasswordFormRepeat}
+                            overlapGroupClassName={styles.overlapContainer}
+                            text="Повторите пароль"
                         />
                         <div className="group-3">
                             <ButtonsLabel
-                                className={classes.loginButton}
-                                divClassName={classes.loginButtonsInstance}
+                                buttonClassName={styles.loginButton}
+                                instanceClassName={styles.loginButtonsInstance}
                                 text="Регистрация"
                             />
 
@@ -76,3 +70,4 @@ export const Register = () => {
         </div>
     );
 };
+export default Register;

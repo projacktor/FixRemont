@@ -90,35 +90,6 @@
     width: 437px;
 }
 
-.screen .forms-primary-select-active-onlight {
-    left: 0 !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 437px !important;
-}
-
-.screen .forms-primary-select-instance {
-    width: 439px !important;
-}
-
-.screen .design-component-instance-node {
-    left: 401px !important;
-}
-
-.screen .forms-primary-select-resting-onlight {
-    left: 0 !important;
-    position: absolute !important;
-    top: 110px !important;
-    width: 437px !important;
-}
-
-.screen .forms-primary-select-resting-onlight-instance {
-    left: 0 !important;
-    position: absolute !important;
-    top: 220px !important;
-    width: 437px !important;
-}
-
 .screen .group-3 {
     height: 100px;
     left: 0;
