@@ -72,17 +72,11 @@
     background: transparent;
 }
 
-.password-error-message {
-    /*margin-left: 10px;*/
-    left: 100px;
-    position: absolute;
+.error-message {
     align-self: flex-start;
     color: red;
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);
-    font-style: var(--12px-bold-font-style);
     font-weight: var(--12px-bold-font-weight);
-    letter-spacing: var(--12px-bold-letter-spacing);
     line-height: var(--12px-bold-line-height);
-    white-space: nowrap;
 }

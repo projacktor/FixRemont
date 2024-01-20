@@ -41,3 +41,22 @@
     top: 220px !important;
     width: 437px !important;
 }
+/*Password from*/
+.passwordForm {
+    left: 0 !important;
+    position: absolute !important;
+    top: 110px !important;
+    width: 437px !important;
+}
+
+/*Forms' error message*/
+.emailErrorMessagePos {
+    position: absolute;
+    left: 150px;
+    top: -1px;
+}
+.passwordErrorMessagePos {
+    position: absolute;
+    left: 150px;
+    top: -1px;
+}

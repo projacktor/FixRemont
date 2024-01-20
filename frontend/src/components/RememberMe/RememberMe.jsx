@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React, { useState } from "react";
 import "./style.css";
 
-export const RememberMe = ({ className, text = "Title" }) => {
+export const RememberMe = ({ className, titleClassName, text = "Title" }) => {
     const [isChecked, setIsChecked] = useState(false);
 
     const handleCheckboxChange = () => {
@@ -12,7 +12,7 @@ export const RememberMe = ({ className, text = "Title" }) => {
     return (
         <div className={`forms-general ${className}`}>
             <div className={`rectangle ${isChecked ? 'checked' : ''}`} onClick={handleCheckboxChange} />
-            <div className="title">{text}</div>
+            <div className={`checkbox-title ${titleClassName}`}>{text}</div>
         </div>
     );
 };

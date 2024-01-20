@@ -85,7 +85,7 @@
     width: 437px !important;
 }
 
-.password-error-message {
+.error-message {
     margin-left: 10px;
     position: absolute;
     align-self: flex-start;
@@ -157,7 +157,33 @@
     white-space: nowrap;
 }
 
-.screen .enter-your-account-d1 {
+/*.screen .enter-your-account-d1 {*/
+/*    color: var(--x-5f-64-6dprimary);*/
+/*    font-family: var(--14px-regular-font-family);*/
+/*    font-size: var(--14px-regular-font-size);*/
+/*    font-style: var(--14px-regular-font-style);*/
+/*    font-weight: var(--14px-regular-font-weight);*/
+/*    left: 0;*/
+/*    letter-spacing: var(--14px-regular-letter-spacing);*/
+/*    line-height: var(--14px-regular-line-height);*/
+/*    position: absolute;*/
+/*    top: 60px;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.screen .enter-your-account-d2 {*/
+/*    color: var(--x-5f-64-6dprimary);*/
+/*    font-family: var(--14px-regular-font-family);*/
+/*    font-size: var(--14px-regular-font-size);*/
+/*    font-style: var(--14px-regular-font-style);*/
+/*    font-weight: var(--14px-regular-font-weight);*/
+/*    left: 0;*/
+/*    letter-spacing: var(--14px-regular-letter-spacing);*/
+/*    line-height: var(--14px-regular-line-height);*/
+/*    position: absolute;*/
+/*    top: 80px;*/
+/*    white-space: nowrap;*/
+/*}*/
+.description {
     color: var(--x-5f-64-6dprimary);
     font-family: var(--14px-regular-font-family);
     font-size: var(--14px-regular-font-size);
@@ -167,22 +193,10 @@
     letter-spacing: var(--14px-regular-letter-spacing);
     line-height: var(--14px-regular-line-height);
     position: absolute;
-    top: 60px;
+    top: 55px;
     white-space: nowrap;
 }
-.screen .enter-your-account-d2 {
-    color: var(--x-5f-64-6dprimary);
-    font-family: var(--14px-regular-font-family);
-    font-size: var(--14px-regular-font-size);
-    font-style: var(--14px-regular-font-style);
-    font-weight: var(--14px-regular-font-weight);
-    left: 0;
-    letter-spacing: var(--14px-regular-letter-spacing);
-    line-height: var(--14px-regular-line-height);
-    position: absolute;
-    top: 80px;
-    white-space: nowrap;
-}
+
 
 .screen .element {
     height: 50px;

@@ -37,3 +37,24 @@
     top: 110px !important;
     width: 437px !important;
 }
+
+/*Forms' error message*/
+.emailErrorMessagePos {
+    position: absolute;
+    /*margin-left: 150px;*/
+    left: 150px;
+    top: -1px;
+}
+.passwordErrorMessagePos {
+    position: absolute;
+    /*margin-left: 150px;*/
+    left: 150px;
+    top: -1px;
+}
+
+/*Checkbox title*/
+.checkboxTitle {
+    left: 30px;
+    position: absolute;
+    top: 2px;
+}

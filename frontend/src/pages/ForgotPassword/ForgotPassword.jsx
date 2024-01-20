@@ -2,7 +2,7 @@ import React from "react";
 import {EmailForm} from "../../components/EmailForm/EmailForm.jsx";
 import {ButtonsLabel} from "../../components/ButtonLabel/ButtonsLabel.jsx";
 import "./style.css";
-import classes from "./forgotPassword.module.css";
+import styles from "./forgotPassword.module.css";
 import mainIcon from "../../img/MainIcon.png";
 import freeFlagsBigImg from "../../img/freeFlagsBigImg.png";
 
@@ -18,22 +18,25 @@ export const ForgotPassword = () => {
                 <div className="group">
                     <div className="group-2">
                         <EmailForm
-                            className="forms-primary-select-active-onlight"
-                            iconClassName="design-component-instance-node"
-                            overlapGroupClassName="forms-primary-select-instance"
+                            className={styles.emailForm}
+                            iconClassName={styles.emailFormIcon}
+                            overlapGroupClassName={styles.overlapContainer}
+                            errorMessagePos={styles.errorMessage}
                             text="✉︎"
                             text1="example@email.ru"
                             text2="Электронная почта"
                         />
                         <ButtonsLabel
-                            className={classes.loginButton}
-                            divClassName={classes.loginButtonsInstance}
+                            buttonClassName={styles.loginButton}
+                            instanceClassName={styles.loginButtonInstance}
                             text="Отправить письмо"
                         />
                     </div>
                     <div className="sign-in">Забыли пароль?</div>
-                    <p className="enter-your-account-d1">Введите свой e-mail ниже, и вы получите письмо</p>
-                    <p className="enter-your-account-d2">с инструкцией как сбросить пароль.</p>
+                    <div className="description">
+                        <p>Введите свой e-mail ниже, и вы получите письмо</p>
+                        <p>с инструкцией как сбросить пароль.</p>
+                    </div>
                 </div>
             </div>
         </div>

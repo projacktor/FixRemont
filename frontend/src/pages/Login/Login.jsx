@@ -21,8 +21,9 @@ export const Login = () => {
                     <div className="group-2">
                         <EmailForm
                             className={styles.emailForm}
-                            iconClassName={styles.emailFormIcon}
                             overlapGroupClassName={styles.overlapContainer}
+                            iconClassName={styles.emailFormIcon}
+                            errorMessagePos={styles.emailErrorMessagePos}
                             text="✉︎"
                             text1="example@email.ru"
                             text2="Электронная почта"
@@ -30,6 +31,7 @@ export const Login = () => {
                         <PasswordForm
                             className={styles.passwordForm}
                             overlapGroupClassName={styles.overlapContainer}
+                            errorMessagePos={styles.passwordErrorMessagePos}
                             text="Пароль"
                         />
                         <ButtonsLabel
@@ -37,7 +39,10 @@ export const Login = () => {
                             instanceClassName={styles.loginButtonInstance}
                             text="Войти"
                         />
-                        <RememberMe className="forms-general-checkbox-resting-onlight" text="Запомнить меня" />
+                        <RememberMe className="forms-general-checkbox-resting-onlight"
+                                    text="Запомнить меня"
+                                    titleClassName={styles.checkboxTitle}
+                        />
                         <div className="recover-password"><a href="!#">Забыли пароль?</a></div>
                     </div>
                     <div className="sign-in">Авторизация</div>

@@ -6,19 +6,20 @@ export const EmailForm = ({
                               className,
                               overlapGroupClassName,
                               iconClassName,
+                              errorMessagePos,
                               text = "",
                               text1 = "Select item",
                               text2 = "Field title",
                           }) => {
     const [email, setEmail] = useState("");
     const [emailDirty, setEmailDirty] = useState(false);
-    const [emailError, setEmailError] = useState('(Email не может быть пустым)');
+    const [emailError, setEmailError] = useState('Email не может быть пустым');
     const handleChange = (event) => {
         setEmail(event.target.value);
         const re =
             /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
         if (!re.test(String(event.target.value).toLowerCase())) {
-            setEmailError('(Некорректный email)');
+            setEmailError('Некорректный email');
         } else {
             setEmailError("");
         }
@@ -36,7 +37,7 @@ export const EmailForm = ({
 
     return (
         <div className={`forms-primary-select ${className}`}>
-            {(emailDirty && emailError) && <div className="password-error-message">{emailError}</div>}
+            {(emailDirty && emailError) && <div className={`error-message ${errorMessagePos}`}>{emailError}</div>}
             <div className="field-title">{text2}</div>
             <div className={`overlap-group ${overlapGroupClassName}`}>
                 <div className={`icon ${iconClassName}`}>{text}</div>
