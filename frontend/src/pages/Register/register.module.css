@@ -1,0 +1,62 @@
+/*Button Label*/
+.loginButton {
+    left: 0 !important;
+    top: 48px !important;
+}
+
+.loginButtonsInstance {
+    color: #000000 !important;
+    left: 176px !important;
+    top: 1px;
+}
+
+/*Forms*/
+.overlapContainer {
+    width: 439px !important;
+}
+
+/*Email from*/
+.emailForm {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 437px !important;
+}
+
+.emailFormIcon {
+    left: 401px !important;
+}
+
+/*Password forms*/
+.newPasswordForm {
+    left: 0 !important;
+    position: absolute !important;
+    top: 110px !important;
+    width: 437px !important;
+}
+
+.newPasswordFormRepeat {
+    left: 0 !important;
+    position: absolute !important;
+    top: 220px !important;
+    width: 437px !important;
+}
+/*Password from*/
+.passwordForm {
+    left: 0 !important;
+    position: absolute !important;
+    top: 110px !important;
+    width: 437px !important;
+}
+
+/*Forms' error message*/
+.emailErrorMessagePos {
+    position: absolute;
+    left: 150px;
+    top: -1px;
+}
+.passwordErrorMessagePos {
+    position: absolute;
+    left: 150px;
+    top: -1px;
+}

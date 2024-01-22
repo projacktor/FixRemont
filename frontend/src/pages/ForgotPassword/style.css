@@ -48,6 +48,7 @@
     top: 829px;
 }
 
+/*Don't have account? Register*/
 .screen .you-don-t-have-an-ac {
     color: var(--x-00000-0primary);
     font-family: var(--14px-regular-font-family);
@@ -61,93 +62,85 @@
     width: fit-content;
 }
 
-.screen .create-an-account {
-    color: #f9af15;
-    font-family: var(--14px-bold-font-family);
-    font-size: var(--14px-bold-font-size);
-    font-style: var(--14px-bold-font-style);
-    font-weight: var(--14px-bold-font-weight);
-    letter-spacing: var(--14px-bold-letter-spacing);
-    line-height: var(--14px-bold-line-height);
-    position: relative;
-    white-space: nowrap;
-    width: fit-content;
-}
-
 .screen .group {
-    height: 565px;
+    height: 455px;
     left: 149px;
     position: absolute;
-    top: 167px;
+    top: 222px;
     width: 441px;
 }
 
 .screen .group-2 {
-    height: 440px;
+    height: 330px;
     left: 0;
     position: absolute;
     top: 125px;
-    width: 437px;
+    width: 439px;
 }
 
-.screen .group-3 {
-    height: 100px;
-    left: 0;
+.screen .forms-primary-select-active-onlight {
+    left: 0 !important;
+    position: absolute !important;
+    top: 65px !important;
+    width: 437px !important;
+}
+
+.error-message {
+    margin-left: 10px;
     position: absolute;
-    top: 340px;
-    width: 437px;
-}
-
-.screen .checkbox {
-    background-color: #f9af15;
-    border-radius: 4px;
-    height: 22px;
-    left: -1px;
-    position: absolute;
-    top: -1px;
-    width: 22px;
-}
-
-.screen .orange-tick {
-    height: 8px;
-    left: 6px;
-    position: absolute;
-    top: 7px;
-    width: 11px;
-}
-
-.screen .title {
-    color: transparent;
+    align-self: flex-start;
+    color: red;
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);
     font-style: var(--12px-bold-font-style);
     font-weight: var(--12px-bold-font-weight);
-    left: 30px;
     letter-spacing: var(--12px-bold-letter-spacing);
     line-height: var(--12px-bold-line-height);
-    position: absolute;
-    top: -10px;
     white-space: nowrap;
+
+    left: 250px;
+    top: -21px;
 }
 
-.screen .privacy-policy-1 {
-    color: #000000;
+.screen .forms-primary-select-instance {
+    width: 439px !important;
+}
+
+.screen .design-component-instance-node {
+    left: 401px !important;
+}
+
+.screen .forms-primary-select-resting-onlight {
+    left: 0 !important;
+    position: absolute !important;
+    top: 100px !important;
+    width: 437px !important;
+}
+
+/**/
+
+/*Remember me checkbox*/
+.screen .forms-general-checkbox-resting-onlight {
+    left: 0 !important;
+    position: absolute !important;
+    top: 230px !important;
+    width: 309px !important;
+}
+
+/*Forgot the password*/
+.screen .recover-password {
+    color: var(--x-00000-0primary);
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);
     font-style: var(--12px-bold-font-style);
     font-weight: var(--12px-bold-font-weight);
+    left: 337px;
     letter-spacing: var(--12px-bold-letter-spacing);
     line-height: var(--12px-bold-line-height);
-}
-
-.screen .privacy-policy-2 {
-    color: #f9af15;
-    font-family: var(--12px-bold-font-family);
-    font-size: var(--12px-bold-font-size);
-    font-style: var(--12px-bold-font-style);
-    font-weight: var(--12px-bold-font-weight);
-    letter-spacing: var(--12px-bold-letter-spacing);
-    line-height: var(--12px-bold-line-height);
+    position: absolute;
+    text-align: right;
+    top: 232px;
+    white-space: nowrap;
 }
 
 .screen .sign-in {
@@ -164,7 +157,33 @@
     white-space: nowrap;
 }
 
-.screen .enter-your-account-d {
+/*.screen .enter-your-account-d1 {*/
+/*    color: var(--x-5f-64-6dprimary);*/
+/*    font-family: var(--14px-regular-font-family);*/
+/*    font-size: var(--14px-regular-font-size);*/
+/*    font-style: var(--14px-regular-font-style);*/
+/*    font-weight: var(--14px-regular-font-weight);*/
+/*    left: 0;*/
+/*    letter-spacing: var(--14px-regular-letter-spacing);*/
+/*    line-height: var(--14px-regular-line-height);*/
+/*    position: absolute;*/
+/*    top: 60px;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.screen .enter-your-account-d2 {*/
+/*    color: var(--x-5f-64-6dprimary);*/
+/*    font-family: var(--14px-regular-font-family);*/
+/*    font-size: var(--14px-regular-font-size);*/
+/*    font-style: var(--14px-regular-font-style);*/
+/*    font-weight: var(--14px-regular-font-weight);*/
+/*    left: 0;*/
+/*    letter-spacing: var(--14px-regular-letter-spacing);*/
+/*    line-height: var(--14px-regular-line-height);*/
+/*    position: absolute;*/
+/*    top: 80px;*/
+/*    white-space: nowrap;*/
+/*}*/
+.description {
     color: var(--x-5f-64-6dprimary);
     font-family: var(--14px-regular-font-family);
     font-size: var(--14px-regular-font-size);
@@ -174,9 +193,10 @@
     letter-spacing: var(--14px-regular-letter-spacing);
     line-height: var(--14px-regular-line-height);
     position: absolute;
-    top: 58px;
+    top: 55px;
     white-space: nowrap;
 }
+
 
 .screen .element {
     height: 50px;
@@ -184,20 +204,4 @@
     position: absolute;
     top: 40px;
     width: 114px;
-}
-
-.shape-wrapper {
-    position: relative;
-    /* другие стили */
-}
-
-.shape-wrapper.checked::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10px;
-    height: 2px;
-    background-color: #000;
-    transform: translate(-50%, -50%) rotate(45deg);
 }

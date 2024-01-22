@@ -1,6 +1,6 @@
 .forms-primary-select {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 92px;
     position: relative;
@@ -33,20 +33,7 @@
     white-space: nowrap;
 }
 
-.forms-primary-select .icon {
-    color: var(--x-5f-64-6dprimary);
-    font-family: var(--icons-18px-font-family);
-    font-size: var(--icons-18px-font-size);
-    font-style: var(--icons-18px-font-style);
-    font-weight: var(--icons-18px-font-weight);
-    left: 324px;
-    letter-spacing: var(--icons-18px-letter-spacing);
-    line-height: var(--icons-18px-line-height);
-    position: absolute;
-    text-align: center;
-    top: 23px;
-    white-space: nowrap;
-}
+/**/
 
 .forms-primary-select .field-title {
     color: var(--x-00000-0primary);
@@ -91,15 +78,11 @@
     margin-left: 50px;
 }
 
-.password-error-message {
-    margin-left: 150px;
+.error-message {
     align-self: flex-start;
     color: red;
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);
-    font-style: var(--12px-bold-font-style);
     font-weight: var(--12px-bold-font-weight);
-    letter-spacing: var(--12px-bold-letter-spacing);
     line-height: var(--12px-bold-line-height);
-    white-space: nowrap;
 }

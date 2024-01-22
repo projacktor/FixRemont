@@ -14,17 +14,14 @@
     width: 22px;
 }
 
-.forms-general .title {
+.forms-general .checkbox-title {
     color: var(--x-5f-64-6dprimary);
     font-family: var(--12px-bold-font-family);
     font-size: var(--12px-bold-font-size);
     font-style: var(--12px-bold-font-style);
     font-weight: var(--12px-bold-font-weight);
-    left: 30px;
     letter-spacing: var(--12px-bold-letter-spacing);
     line-height: var(--12px-bold-line-height);
-    position: absolute;
-    top: 2px;
     white-space: nowrap;
 }
 
