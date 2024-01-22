@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'knox',
     'api',
+    'account',
 ]
 
 MIDDLEWARE = [
@@ -60,7 +61,7 @@ ROOT_URLCONF = 'fixRemontWebApp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['fixRemontWebApp\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
