@@ -3,6 +3,12 @@ from django.shortcuts import render
 from django.contrib.auth import authenticate, login
 from .forms import LoginForm
 
+def index(request):
+    """ Function loading index page """
+    context = {"current_user": request.user}
+    return render(request, "index.html", context)
+
+
 def user_login(request):
     if request.method == 'POST':
         form = LoginForm(request.POST)

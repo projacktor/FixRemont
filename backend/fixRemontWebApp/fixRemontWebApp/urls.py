@@ -42,10 +42,8 @@ Including another URLconf
 #     # path('license/', views.license, name="license"),
 #     # path('franchise/', views.franchise, name="franchise"),
 # ]
-
 from django.urls import path, include
 from django.contrib import admin
-# from account import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
