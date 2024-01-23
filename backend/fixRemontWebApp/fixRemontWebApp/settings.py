@@ -36,11 +36,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_vite',
     'rest_framework',
     'corsheaders',
     'knox',
     'api',
     'account',
+    'index',
 ]
 
 MIDDLEWARE = [
@@ -121,7 +123,26 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+
+STATICFILES_FINDERS = [
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+]
+
+# Where ViteJS production assets are built.
+DJANGO_VITE_ASSETS_PATH = BASE_DIR / "static" / "dist"
+
+# use HMR or not.
+DJANGO_VITE_DEV_MODE = DEBUG
+
+# Name of static files folder (called by python manage.py collectstatic)
+#STATIC_ROOT = "staticfiles"
+
+# Include DJANGO_VITE_ASSETS_PATH in STATICFILES_DIRS list
+STATICFILES_DIRS = [
+    str(BASE_DIR / "static"),DJANGO_VITE_ASSETS_PATH
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
