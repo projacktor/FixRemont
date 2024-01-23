@@ -1,0 +1,20 @@
+.buttons-icon {
+    height: 32px;
+    position: relative;
+    width: 32px;
+}
+
+.buttons-icon .icon {
+    color: var(--x-00000-0primary);
+    font-family: var(--icons-16px-font-family);
+    font-size: var(--icons-16px-font-size);
+    font-style: var(--icons-16px-font-style);
+    font-weight: var(--icons-16px-font-weight);
+    left: 8px;
+    letter-spacing: var(--icons-16px-letter-spacing);
+    line-height: var(--icons-16px-line-height);
+    position: absolute;
+    text-align: center;
+    top: 8px;
+    white-space: nowrap;
+}
